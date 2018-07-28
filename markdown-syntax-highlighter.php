@@ -57,6 +57,9 @@ class MarkdownSyntaxHighlighter {
                 } elseif ( $matches[1] == 'language-bash-user' ) {
                     return '<pre class="command-line language-bash" data-prompt="$" data-user="" data-host=""><code class="language-bash">';
 
+                } elseif ( $matches[1] == 'language-bash-mysql' ) {
+                    return '<pre class="command-line language-bash" data-prompt="mysql>" data-user="" data-host=""><code class="language-bash">';
+
                 } else {
                     return sprintf( '<pre><code class="%s">', $matches[1] );
                 }
