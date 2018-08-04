@@ -26,7 +26,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // exit if accessed directly!
 }
 
-define( 'PLUGINVERSION', '1.0.0' );
 define( 'PRISMJSVERSION', '1.15.0' );
 
 class MarkdownSyntaxHighlighter {
